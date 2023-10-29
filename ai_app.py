@@ -10,7 +10,7 @@ from langchain.prompts.chat import (
 from langchain.schema import AIMessage, HumanMessage, SystemMessage
 
 # Initialize ChatOpenAI
-llm = ChatOpenAI(model_name="gpt-4", temperature=0.5, openai_api_key="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")
+llm = ChatOpenAI(model_name="gpt-4", temperature=0.5, openai_api_key="ADD_YOUR_API_KEY")
 
 st.title("Textibot")
 
