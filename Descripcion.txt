@@ -1,0 +1,6 @@
+En este experimento con IA, intenté crear un bot utilizando Streamlit y LangChain. El objetivo de este experimento fue diseñar una herramienta para explicar instructivos específicos en la plataforma, usando al bot como un maestro sobre dicho instructivo. Para lograr esto, utilicé la herramienta de "prompt template" de LangChain, creando un prompt que incluye el instructivo.
+
+Como modelo de lenguaje, utilicé GPT-4 con mi API personal (por favor, no abuses de ella). Dos aspectos llamaron especialmente mi atención:
+
+No había un ejemplo de cómo utilizar LangChain en un formato de chat en la plataforma de Streamlit. Por ello, fue un desafío diseñar el bot con las diferentes ventanas de chat.
+Decidí usar instructivos ficticios, y el bot constantemente advertía sobre su carácter ficticio. Por lo tanto, tuve que ajustar la configuración del bot para que no mencionara que eran ficticios. Esto genera una experiencia única en la que el bot mantiene la ficción con el usuario.
